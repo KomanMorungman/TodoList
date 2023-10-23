@@ -1,0 +1,59 @@
+body {
+    height: 100vh;
+    color: black;
+    background-image: radial-gradient(rgba(184, 255, 245, 0.41), rgba(92, 255, 245, 0.41));
+    font-size: 40px;
+}
+
+.box {
+    width: 50%;
+    margin: 5px auto;
+    text-align: center;
+    vertical-align: center;
+
+}
+
+.item {
+    background-color: rgba(52, 152, 145, 0.8);
+    box-shadow: 5px 5px 10px rgba(52, 152, 145, 0.8), -5px -5px 10px rgba(52, 152, 145, 0.8);
+    display: flex;
+
+    align-items: center;
+    min-height: 70px;
+    border-radius: 5px;
+    margin-bottom: 4px;
+    width: 100%;
+}
+
+.item .check {
+    margin-left: 20px;
+    margin-right: 10px;
+
+}
+
+.item .check:checked~p {
+    text-decoration: line-through;
+}
+
+form {
+    display: flex;
+    margin-top: 20px;
+
+
+}
+
+input[type=text] {
+    min-height: 60px;
+    width: 80%;
+    border: none;
+    font-size: 80%;
+    text-align: center;
+}
+
+button {
+    min-height: 60px;
+    width: 20%;
+    border: none;
+    font-size: 120%;
+    margin-left: 3px;
+}
